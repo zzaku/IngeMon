@@ -1,0 +1,79 @@
+.accueil-ingemon{
+    align-items: center;
+    height: 300px;
+    width: 65%;
+    border-radius: 5%;
+    position: relative;
+    left: 20%;      
+    margin-top: 10%;
+    background-color: rgb(128, 126, 243);
+    
+}
+
+.span-ingemon{
+    position: relative;
+    top: 15%;
+}
+
+button {
+    background: none;
+    border: 0;
+    box-sizing: border-box;
+    margin: 1em;
+    padding: 1em 2em;
+    box-shadow: inset 0 0 0 2px #f45e61;
+    color: #f45e61;
+    font-size: inherit;
+    font-weight: 700;
+    position: relative;
+    vertical-align: middle;
+  }
+  button::before, button::after {
+    box-sizing: inherit;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+.button-start {
+    position: relative;
+    top: 20%;
+    width: 8em;
+    height: 8em;
+    padding: 0;
+  }
+  .button-start:hover {
+    color: #0eb7da;
+  }
+  .button-start::before, .button-start::after {
+    top: 0;
+    left: 0;
+  }
+  .button-start::before {
+    border: 2px solid transparent;
+  }
+  .button-start:hover::before {
+    border-top-color: #0eb7da;
+    border-right-color: #0eb7da;
+    border-bottom-color: #0eb7da;
+    transition: border-top-color 0.15s linear, border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+  }
+  .button-start::after {
+    border: 0 solid transparent;
+  }
+  .button-start:hover::after {
+    border-top: 2px solid #0eb7da;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(270deg);
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s;
+  }
+  
+  .button-start-circle {
+    border-radius: 100%;
+    box-shadow: none;
+  }
+  .button-start-circle::before, .button-start-circle::after {
+    border-radius: 100%;
+  }  

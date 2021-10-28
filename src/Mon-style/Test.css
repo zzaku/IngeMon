@@ -1,0 +1,22 @@
+.container-performances{
+    height: 45em;
+}
+
+.BarNav-test{
+    align-items:center;
+    padding-right: 25%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-top: 0%;
+    display: inline-flex;
+	border: 2px solid;
+    border-radius: 100px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(248, 70, 70)) padding-box;
+}
+
+.BarNav-composant{
+    margin-top:6%;
+    margin-left: 19%;
+    list-style-type: none;
+    
+}

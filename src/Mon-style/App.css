@@ -1,8 +1,7 @@
-body{
-  background-color: rgb(255, 255, 255);
-}
+
 
 .App {
+  height: 100%;
   text-align: center;
 }
 

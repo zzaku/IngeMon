@@ -1,0 +1,123 @@
+.container-header{
+    --x: 20%;
+	--y: 20%;
+    padding-top: 0%;
+    background-color: rgb(128, 126, 243);
+    display: flex;
+	border: 2px solid;
+    background: linear-gradient(rgb(128, 126, 243), rgb(128, 126, 243), rgb(128, 126, 243)) padding-box, radial-gradient(farthest-corner at var(--x) var(--y), rgb(128, 126, 243), rgb(128, 126, 243)) border-box;
+}
+
+
+.navbar {
+    display: flex;
+	flex-flow:row wrap;
+    justify-content:space-around;
+	align-items:center;
+	width:100%;
+  list-style-type: none;
+}
+
+.App-logo{
+    
+    align-items: center;
+}
+
+.li-header1 {
+  background-color: white;
+  border: 0;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+  box-shadow: inset 0 0 0 2px lightcoral;
+  color: #000000;
+  font-size: inherit;
+  font-weight: 700;
+  position: relative;
+  vertical-align: middle;
+}
+
+.li-header1::before, .li-header1::after {
+	box-sizing: inherit;
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+  }
+
+  .li-header1 {
+	transition: color 0.2s;
+  }
+
+  .li-header1::before, .li-header1::after {
+	border: 3px solid transparent;
+	width: 0;
+	height: 0;
+  }
+
+  .li-header1::before {
+	top: 0;
+	left: 0;
+  }
+
+  .li-header1::after {
+	bottom: 0;
+	right: 0;
+  }
+
+  .li-header1:hover {
+	color: #16ec3a;
+  }
+
+  .li-header1:hover::before, .li-header1:hover::after {
+	width: 100%;
+	height: 100%;
+  }
+
+  .li-header1:hover::before {
+	border-top-color: #16ec3a;
+	border-right-color: #16ec3a;
+	transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+  }
+
+  .li-header1:hover::after {
+	border-bottom-color: #16ec3a;
+	border-left-color: #16ec3a;
+	transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+  }
+
+  .container_nuit{
+    border:2px solid black;
+    width:60px;
+    height:30px;
+    margin-right:7px;
+    margin-top:5px;
+    border-radius:20px;
+  }
+
+  .boule_nuit{
+    background-color:red;
+    border:1px solid red;
+    width:28px;
+    height:26px;
+    border-radius:30px;
+    margin-top:0.3px;
+    transition-duration:0.5s;
+    cursor:pointer;
+
+  }
+
+  .night{
+    transform:translateX(26px)
+  }
+
+  .night2{
+  background-color: grey;
+
+  }
+ body{
+   transition:1s
+ }
+ .container_nuit{
+   transition:1s
+ }
