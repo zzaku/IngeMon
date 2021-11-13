@@ -1,88 +1,83 @@
-.container-monitoring{
-    height: 100%;
-    width: 100%;
-    
-    display:flex;
-    flex-wrap: wrap;
+.container-monitoring {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.analyse-performance{
-    width:50%;
-    height:100%;
-    background-color: indianred;
-    color: white;
-    
+.analyse-performance {
+  width: 50%;
+  height: 100%;
+  background-color: indianred;
+  color: white;
 }
 
-.stats{
-    display: flex;
-    flex-flow:row wrap;
-    width:50%;
-    height:70%;
-    background-color: rgb(255, 255, 255)
+.stats {
+  display: flex;
+  flex-flow: row wrap;
+  width: 50%;
+  height: 70%;
+  background-color: rgb(255, 255, 255);
 }
 
-.upgrade{
-    height: 30%;
-    width: 100%;
-    background-color: rgb(189, 207, 20);
+.upgrade {
+  height: 30%;
+  width: 100%;
+  background-color: rgb(189, 207, 20);
 }
 
-.data-ram{
-    color: white;
+.data-ram {
+  color: white;
 }
 
-.stats_container{
-    width: 100%;
-    border:1px solid blue;
-    display: flex;
-    flex-flow: row wrap;
+.stats_container {
+  width: 100%;
+  border: 1px solid blue;
+  display: flex;
+  flex-flow: row wrap;
 }
 
-.container_graph{
-    width: 50%;
-    height:50%;
-    border:1px solid purple;
-    
+.container_graph {
+  width: 50%;
+  height: 50%;
+  border: 1px solid purple;
 }
 
-.container_graph2{
-    width: 150%;
-    height:100%;
-    border:1px solid purple;
-    
+.container_graph2 {
+  width: 150%;
+  height: 100%;
+  border: 1px solid purple;
 }
 
-.container_graph3{
-    width: 100%;
-    height:100%;
-    border:1px solid purple;
-    
+.container_graph3 {
+  width: 100%;
+  height: 100%;
+  border: 1px solid purple;
 }
 
-.container_graphdisk{
-    width: 50%;
-    height:100%;
-    border:1px solid purple;
-    
+.container_graphdisk {
+  width: 50%;
+  height: 100%;
+  border: 1px solid purple;
 }
 
-.statsdisk{
-    display: flex;
-    align-items:center;
-    width:50%;
-    height:70%;
-    background-color: rgb(255, 255, 255)
+.statsdisk {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 70%;
+  background-color: rgb(255, 255, 255);
 }
 
-.none-container{
-    text-align: center;
-    height:100%;
-    display: table;
-    width: 50%;
+.none-container {
+  text-align: center;
+  height: 100%;
+  display: table;
+  width: 50%;
 }
 
-.none-default{
-        vertical-align:middle;
-        display: table-cell;
+.none-default {
+  vertical-align: middle;
+  display: table-cell;
 }
